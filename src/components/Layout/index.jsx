@@ -23,6 +23,14 @@ const Layout = (props) => {
 									title
 								}
 							}
+							allWordpressPage {
+								edges {
+									node {
+										title
+										content
+									}
+								}
+							}
 						}
 					`}
 				render={
