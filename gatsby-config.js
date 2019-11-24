@@ -8,6 +8,15 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        baseUrl: `wp-gatsby-rocket.atwebpages.com/wordpress`,
+        protocol: 'http',
+        hostingWPCOM: false,
+        useACF: false,
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
