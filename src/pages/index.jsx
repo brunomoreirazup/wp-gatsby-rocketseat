@@ -8,7 +8,7 @@ import {
   RightArrow
 } from '../styles/home'
 
-const PAGE_SIZE = 3
+const PAGE_SIZE = 4
 
 const IndexPage = (props) => {
   const [prev, setPrevPage] = useState(0)
