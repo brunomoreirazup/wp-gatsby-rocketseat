@@ -6,6 +6,7 @@ export const PaginationContainer = styled.div`
   position: relative;
   width: 80%;
   justify-content: space-between;
+  margin-bottom: 10px;
 `
 
 export const LeftArrow = styled(LeftArrowSVG)`
