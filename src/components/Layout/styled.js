@@ -25,4 +25,5 @@ export const ApplicationContainer = styled.div`
     width: 80%;
     padding: 20px;
     height: 100%;
+    overflow-Y: auto;
 ` 
