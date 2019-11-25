@@ -32,6 +32,23 @@ yarn add gatsby-source-wordpress
     },
 ```
 
+### React SVG Plugin:
+```
+yarn add gatsby-plugin-react-svg
+```
+
+#### Para configurá-lo, inserir no arquivo gatsby-config.js:
+```
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/,
+        },
+      },
+    },
+```
+
 ## Bibliotecas Importantes:
 
 ### Styled components:
